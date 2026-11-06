@@ -173,3 +173,8 @@ body[data-page="home"] article>h2{margin-top:3.5rem;font-size:1.5rem;padding:0;m
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.sidebar{transition:none}}
 @media print{header,.sidebar,.toc,.page-pagination,.hero-actions,#overlay{display:none!important}main,body[data-page="home"] main{margin:0;padding:0;max-width:none}article[hidden]{display:block}article{break-before:page}.content-grid{display:block}.table-scroll{overflow:visible}h1,h2,h3{break-after:avoid}.screenshot,table{break-inside:avoid}body{font-size:10pt}a{color:inherit}.breadcrumbs{display:none}footer{position:static;color:#2f3238;background:#fff}}
+
+/* Supplied Unity / VRChat screenshots: preserve original image pixels. */
+.screenshot--provided{display:block;min-height:0;padding:0;border:0;border-radius:0;background:none;text-align:left}
+.screenshot--provided img{display:block;max-width:100%;width:auto;height:auto;margin:0 0 .75rem}
+.screenshot--provided figcaption{color:var(--ifm-color-emphasis-700);font-size:.78rem;line-height:1.65}
